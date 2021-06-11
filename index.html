@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM MANIP</title>
+</head>
+<body>
+    <h1>DOM CALCULATOR</h1>
+    <form>
+        <label for="firstValue">Premier nombre</label>
+        <input type="number" id="firstValue" name="firstValue">
+        <label for="secondValue">Second nombre</label>
+        <input type="number" id="secondValue" name="secondValue">
+        <label for="operand">Opérateur</label>
+        <select name="operand" id="operand">
+            <option value="choose">Choisir un opérateur</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <button type="button" id="calculate">
+            Calculer
+        </button>
+        <div id="result"></div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
